@@ -4,6 +4,134 @@
 }
 
 #root {
+  display: flex;
   width: 1200px;
   margin: 20px auto;
+}
+
+.App {
+  width: 90%;
+}
+
+ul {
+  list-style: none;
+}
+
+.news-side {
+  display: flex;
+  justify-content: space-between;
+}
+.news {
+
+}
+.header-news {
+  display: flex;
+}
+
+.header-news-list > li {
+  margin-right: 10px;
+}
+
+.header-news-list {
+  display: flex;
+}
+.news-date {
+
+}
+.body-news {
+
+}
+.quotes > ul {
+  display: flex;
+}
+.quotes > ul > li {
+  width: 50%;
+  display: flex;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+.side-item {
+  width: 30%;
+}
+.list-search {
+  margin: 10px 0;
+}
+.list-nav > ul {
+  display: flex;
+}
+.list-nav > ul > li {
+  margin-right: 10px;
+}
+.search {
+
+}
+.search-link {
+  margin-right: auto;
+  margin-top: 165px;
+}
+.search-form {
+  margin: 10px 0;
+}
+.search-input {
+  width: 70%;
+}
+.search-btn {
+
+}
+.search-comment {
+
+}
+.advertising {
+
+}
+.advertising-link {
+  border: 1px blue solid;
+  width: 70%;
+  height: 70px;
+  margin-bottom: 10px;
+}
+.section-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+}
+.weather-card {
+
+}
+.weather {
+  display: flex;
+}
+.weather > p {
+  margin: 0 10px;
+}
+.card > ul > li {
+  display: flex;
+}
+.card > ul > li > p {
+  margin: 0 10px;
+}
+.card > h4 {
+  margin-bottom: 5px;
+}
+.card > header {
+  display: flex;
+  margin-bottom: 5px;
+}
+.card > header > h4 {
+  margin-right: 5px;
+}
+.maps-card {
+
+}
+.broadcast-card {
+
+}
+.visited-card {
+
+}
+.tv-program-card {
+
 }
