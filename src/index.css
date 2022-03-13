@@ -21,11 +21,12 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-.news {
-
+.news > nav > ul > li {
+  margin: 5px 0;
 }
 .header-news {
   display: flex;
+  margin-bottom: 10px;
 }
 
 .header-news-list > li {
@@ -35,16 +36,13 @@ ul {
 .header-news-list {
   display: flex;
 }
-.news-date {
-
+.body-news > li {
+  margin: 5px 0;
 }
-.body-news {
-
-}
-.quotes > ul {
+.quotes {
   display: flex;
 }
-.quotes > ul > li {
+.quotes > li {
   width: 50%;
   display: flex;
   margin-right: 10px;
