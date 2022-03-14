@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/6ti883jm3cgx7gj0/branch/master?svg=true)](https://ci.appveyor.com/project/RebikHub/ra-composition-decomposition/branch/master)
 
 [Декомпозиция](https://rebikhub.github.io/ra-composition-decomposition/)
 
