@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function NewsItem({img, url, text}) {
+export default function NewsItem({img, url, text}) { // Новость - ссылка
   return (
     <>
       <img src={img} alt="..." />

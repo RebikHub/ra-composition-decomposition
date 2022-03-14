@@ -1,7 +1,7 @@
 import React from 'react'
 import QuotesItem from './QuotesItem'
 
-export default function NewsQuotes({quotes}) {
+export default function NewsQuotes({quotes}) { // Блок котировок
   console.log(quotes);
   return (
     <ul className="quotes">

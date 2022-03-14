@@ -47,6 +47,7 @@ ul {
   display: flex;
   margin-right: 10px;
   justify-content: space-between;
+  align-items: self-end;
 }
 .side-item {
   width: 30%;
@@ -54,33 +55,22 @@ ul {
 .list-search {
   margin: 10px 0;
 }
-.list-nav > ul {
+.list-nav {
   display: flex;
 }
-.list-nav > ul > li {
+.list-nav > li {
   margin-right: 10px;
-}
-.search {
-
 }
 .search-link {
   margin-right: auto;
-  margin-top: 165px;
+  margin-top: 220px;
+  padding-left: 65px;
 }
 .search-form {
   margin: 10px 0;
 }
 .search-input {
   width: 70%;
-}
-.search-btn {
-
-}
-.search-comment {
-
-}
-.advertising {
-
 }
 .advertising-link {
   border: 1px blue solid;
@@ -96,8 +86,8 @@ ul {
 .card {
   width: 30%;
 }
-.weather-card {
-
+.card > header > a {
+  margin-right: 5px;
 }
 .weather {
   display: flex;
@@ -120,16 +110,4 @@ ul {
 }
 .card > header > h4 {
   margin-right: 5px;
-}
-.maps-card {
-
-}
-.broadcast-card {
-
-}
-.visited-card {
-
-}
-.tv-program-card {
-
 }

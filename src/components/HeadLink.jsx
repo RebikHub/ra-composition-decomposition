@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function HeadLink({text, url}) {
+export default function HeadLink({text, url}) { // Заголовок - ссылка
   return (
     <a href={url}>
-      <h3>{text}</h3>
+      <h4>{text}</h4>
     </a>
   )
 }
